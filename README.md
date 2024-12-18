@@ -16,3 +16,9 @@ https://www.youtube.com/watch?v=UmRtFFSDSFo&list=PLGjplNEQ1it_oTvuLRNqXfz_v_0pq6
 
 Array Methods <br>
 https://www.youtube.com/watch?v=gFWhbjzowrM&list=PLGjplNEQ1it_oTvuLRNqXfz_v_0pq6unW&index=4&t=2072s
+
+Arrow function <br>
+https://youtu.be/P0XMXqDGttU?list=PLGjplNEQ1it_oTvuLRNqXfz_v_0pq6unW&t=1207
+
+forEach method <br>
+https://youtu.be/P0XMXqDGttU?list=PLGjplNEQ1it_oTvuLRNqXfz_v_0pq6unW&t=2191

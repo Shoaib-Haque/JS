@@ -7,4 +7,12 @@ console.log(c); // 40
 // let: Does not allow re-declaration within the same scope.
 
 let d = 50;
-let d = 60; // SyntaxError: Identifier 'd' has already been declared
+// let d = 60; // SyntaxError: Identifier 'd' has already been declared
+
+
+let globalVar = 100;
+{
+    let globalVar = 200;
+    console.log(globalVar); // 200
+}
+console.log(globalVar); // 100
