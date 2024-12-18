@@ -1,4 +1,5 @@
-
+// The for...in loop in JavaScript is used to iterate over objects  mainly. 
+// It retrieves the keys of the objects, unlike for...of, which retrieves the values.
 
 
 let str = "Shoaib";
