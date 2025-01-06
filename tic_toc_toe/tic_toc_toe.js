@@ -1,15 +1,15 @@
-let board = [['-', '-', '-'], ['-', '-', '-'], ['-', '-', '-']];
-let gameOn = true;
+
 const Player1Sign = "*";
 const Player2Sign = "0";
+const blocks = document.getElementsByClassName("block");
+const heading = document.getElementById("heading");
+const resetBtn = document.querySelector("button");
+
+let board = [['-', '-', '-'], ['-', '-', '-'], ['-', '-', '-']];
+let gameOn = true;
 let whichPlayer = "Player1";
 let row = 0;
 let column = 0;
-const blocks = document.getElementsByClassName("block");
-console.log(blocks);
-
-const heading = document.getElementById("heading");
-
 
 const checkSign = (sign) => {
     if(board[row][0] == sign && board[row][1] == sign && board[row][2] == sign) {
@@ -57,23 +57,36 @@ const checkResult = () => {
 }
 
 const takeShot = (e) => {
-    if(gameOn) {
+    if(gameOn && e.target.innerText == "") {
         row = e.target.getAttribute("row");
         column = e.target.getAttribute("column");
-        // e.target.style.backgroundColor = "red";
-        if(e.target.innerText == "") {
-            if(whichPlayer == "Player1") {
-                e.target.innerText = Player1Sign;
-                board[row][column] = Player1Sign;
-            } else {
-                e.target.innerText = Player2Sign;
-                board[row][column] = Player2Sign;
-            }
+        if(whichPlayer == "Player1") {
+            e.target.innerText = Player1Sign;
+            board[row][column] = Player1Sign;
+        } else {
+            e.target.innerText = Player2Sign;
+            board[row][column] = Player2Sign;
         }
         checkResult();
     }
 }
 
+const reset = () => {
+    board.forEach((row, r) => {
+        row.forEach((col, c) => {
+            board[r][c] = "-";
+        })
+    });
+    for(let block of blocks) {
+        block.innerHTML = "";
+    }
+    whichPlayer = "Player1";
+    heading.innerText = `${whichPlayer}`;
+    
+}
+
 for(let block of blocks) {
     block.addEventListener("click", takeShot);
 }
+
+resetBtn.addEventListener("click", reset);
