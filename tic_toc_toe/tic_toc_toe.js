@@ -10,6 +10,7 @@ let gameOn = true;
 let whichPlayer = "Player1";
 let row = 0;
 let column = 0;
+let clicks = 0;
 
 const checkSign = (sign) => {
     if(board[row][0] == sign && board[row][1] == sign && board[row][2] == sign) {
@@ -49,7 +50,9 @@ const checkResult = () => {
             whichPlayer = "Player1";
         }
     }
-    if(gameOn) {
+    if(gameOn && clicks == 9) {
+        heading.innerText = `No winner!`;
+    } else if(gameOn) {
         heading.innerText = `${whichPlayer}`;
     } else {
         heading.innerText = `${whichPlayer} Wins!`;
@@ -67,6 +70,7 @@ const takeShot = (e) => {
             e.target.innerText = Player2Sign;
             board[row][column] = Player2Sign;
         }
+        clicks++;
         checkResult();
     }
 }
