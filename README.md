@@ -22,3 +22,13 @@ https://youtu.be/P0XMXqDGttU?list=PLGjplNEQ1it_oTvuLRNqXfz_v_0pq6unW&t=1207
 
 forEach method <br>
 https://youtu.be/P0XMXqDGttU?list=PLGjplNEQ1it_oTvuLRNqXfz_v_0pq6unW&t=2191
+
+map method <br>
+https://youtu.be/P0XMXqDGttU?list=PLGjplNEQ1it_oTvuLRNqXfz_v_0pq6unW&t=2772
+
+filter method <br>
+https://youtu.be/P0XMXqDGttU?list=PLGjplNEQ1it_oTvuLRNqXfz_v_0pq6unW&t=3036
+
+reduce method <br>
+https://youtu.be/P0XMXqDGttU?list=PLGjplNEQ1it_oTvuLRNqXfz_v_0pq6unW&t=3185
+
