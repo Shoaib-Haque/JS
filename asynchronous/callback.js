@@ -14,13 +14,15 @@ Promises: Objects representing the eventual completion (or failure) of an asynch
 async/await: Modern syntax for handling asynchronous operations in a cleaner way. */
 
 // Example: Asynchronous Code with callback
-const callBack = () => {
-    console.log(`This line will be executed after the timeout`);
+const callBack = (s) => {
+    console.log(`This line will be executed after the ${s} seconds`);
 }
 
 console.log("1");
 console.log("2");
-setTimeout(callBack, 5000);
+setTimeout(() => {
+    callBack(5)
+}, 5000);
 // This line execution wont be delayed for the setTimeout method as it is a asynchronous method
 console.log("3"); 
 console.log("4");
