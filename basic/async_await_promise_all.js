@@ -12,7 +12,7 @@ function task2() {
 function task3() {
     return new Promise((resolve) => setTimeout(() => resolve("Task 3 completed"), 1500));
 }
-
+  
 async function runTasks() {
     console.log("Running tasks concurrently...");
     const results = await Promise.all([task1(), task2(), task3()]); // Run tasks in parallel
