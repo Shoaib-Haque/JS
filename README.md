@@ -37,9 +37,9 @@ https://www.youtube.com/watch?v=d3jXofmQm44&t=2076s&ab_channel=ShradhaKhapra
 
 API <br>
 https://www.youtube.com/watch?v=CyGodpqcid4&list=PLGjplNEQ1it_oTvuLRNqXfz_v_0pq6unW&index=14&ab_channel=ShradhaKhapra
-
-
-
+<br>
+<br>
+<br>
 Key Versions to Know <br>
 ES6 (ES2015) - This is the most significant update to JavaScript and includes: <br>
 let and const for block-scoped variables <br>
