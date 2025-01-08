@@ -18,3 +18,12 @@ let filteredMarks = marks.filter((val) => {
 
 console.log(filteredMarks);
 
+const numbers = [10, 11, 9, 15, 3, 7];
+
+let filteredNumbers = numbers.filter((item) => {
+    return item < 10;
+});
+
+console.log(filteredNumbers);
+
+
