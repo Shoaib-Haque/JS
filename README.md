@@ -34,3 +34,6 @@ https://youtu.be/P0XMXqDGttU?list=PLGjplNEQ1it_oTvuLRNqXfz_v_0pq6unW&t=3185
 
 Callbacks, Promises & Async Await
 https://www.youtube.com/watch?v=d3jXofmQm44&t=2076s&ab_channel=ShradhaKhapra
+
+API
+https://www.youtube.com/watch?v=CyGodpqcid4&list=PLGjplNEQ1it_oTvuLRNqXfz_v_0pq6unW&index=14&ab_channel=ShradhaKhapra
