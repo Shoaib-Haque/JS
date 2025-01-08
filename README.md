@@ -32,70 +32,68 @@ https://youtu.be/P0XMXqDGttU?list=PLGjplNEQ1it_oTvuLRNqXfz_v_0pq6unW&t=3036
 reduce method <br>
 https://youtu.be/P0XMXqDGttU?list=PLGjplNEQ1it_oTvuLRNqXfz_v_0pq6unW&t=3185
 
-Callbacks, Promises & Async Await
+Callbacks, Promises & Async Await <br>
 https://www.youtube.com/watch?v=d3jXofmQm44&t=2076s&ab_channel=ShradhaKhapra
 
-API
+API <br>
 https://www.youtube.com/watch?v=CyGodpqcid4&list=PLGjplNEQ1it_oTvuLRNqXfz_v_0pq6unW&index=14&ab_channel=ShradhaKhapra
 
 
 
+Key Versions to Know <br>
+ES6 (ES2015) - This is the most significant update to JavaScript and includes: <br>
+let and const for block-scoped variables <br>
+Arrow functions (=>) <br>
+Template literals <br>
+Classes <br>
+Modules (import and export) <br>
+Promises <br>
+Default parameters <br>
+Destructuring assignment <br>
+Spread/rest operators (...) <br>
+Map and Set <br>
 
-Key Versions to Know
-ES6 (ES2015) - This is the most significant update to JavaScript and includes:
+ES7 (ES2016) - Minor additions: <br>
+Array .includes() <br>
+Exponentiation operator (**) <br>
 
-let and const for block-scoped variables
-Arrow functions (=>)
-Template literals
-Classes
-Modules (import and export)
-Promises
-Default parameters
-Destructuring assignment
-Spread/rest operators (...)
-Map and Set
-ES7 (ES2016) - Minor additions:
+ES8 (ES2017) - Introduced: <br>
+async/await <br>
+Object entries (Object.entries()), values (Object.values()), and Object.getOwnPropertyDescriptors <br>
 
-Array .includes()
-Exponentiation operator (**)
-ES8 (ES2017) - Introduced:
+ES9 (ES2018) - Useful features: <br>
+Rest/spread operators for objects <br>
+Asynchronous iteration (for await...of) <br>
+Regular expression enhancements <br>
 
-async/await
-Object entries (Object.entries()), values (Object.values()), and Object.getOwnPropertyDescriptors
-ES9 (ES2018) - Useful features:
+ES10 (ES2019) - Includes: <br>
+Array.flat() and Array.flatMap() <br>
+Optional catch binding in try...catch <br>
+Object.fromEntries() <br>
+String trimming (trimStart() and trimEnd()) <br>
 
-Rest/spread operators for objects
-Asynchronous iteration (for await...of)
-Regular expression enhancements
-ES10 (ES2019) - Includes:
+ES11 (ES2020) - Key modern features: <br>
+Optional chaining (?.) <br>
+Nullish coalescing (??) <br>
+Dynamic import() <br>
+BigInt support <br>
+Promise.allSettled() <br>
 
-Array.flat() and Array.flatMap()
-Optional catch binding in try...catch
-Object.fromEntries()
-String trimming (trimStart() and trimEnd())
-ES11 (ES2020) - Key modern features:
+ES12 (ES2021) - Additions: <br>
+Logical assignment operators (&&=, ||=, ??=) <br>
+Numeric separators (1_000_000) <br>
+String replace enhancements (replaceAll()) <br>
 
-Optional chaining (?.)
-Nullish coalescing (??)
-Dynamic import()
-BigInt support
-Promise.allSettled()
-ES12 (ES2021) - Additions:
+ES13 (ES2022) - Introduced: <br>
+at() method for arrays/strings <br>
+Top-level await <br>
+Class fields and private methods <br>
+RegExp match indices (d flag) <br>
 
-Logical assignment operators (&&=, ||=, ??=)
-Numeric separators (1_000_000)
-String replace enhancements (replaceAll())
-ES13 (ES2022) - Introduced:
+ES14 (ES2023) - Latest relevant features: <br>
+Array findLast() and findLastIndex() <br>
+Hashbang syntax (#!/usr/bin/env node) <br>
+Stable sorting in Array.sort() <br>
 
-at() method for arrays/strings
-Top-level await
-Class fields and private methods
-RegExp match indices (d flag)
-ES14 (ES2023) - Latest relevant features:
-
-Array findLast() and findLastIndex()
-Hashbang syntax (#!/usr/bin/env node)
-Stable sorting in Array.sort()
-ES2024 (Latest):
-
-Minor updates and clarifications, focusing on improving consistency.
+ES2024 (Latest): <br>
+Minor updates and clarifications, focusing on improving consistency. <br>
